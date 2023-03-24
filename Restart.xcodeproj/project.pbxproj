@@ -10,6 +10,9 @@
 		3759F45D29C5B84500C6403B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3759F45C29C5B84500C6403B /* OnboardingView.swift */; };
 		3759F45F29C5B85300C6403B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3759F45E29C5B85300C6403B /* HomeView.swift */; };
 		37A3B34F29CA8957009EB766 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3B34E29CA8957009EB766 /* CircleGroupView.swift */; };
+		37A3B35229CD38E0009EB766 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3B35129CD38E0009EB766 /* AudioPlayer.swift */; };
+		37A3B35529CD4156009EB766 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 37A3B35329CD4156009EB766 /* chimeup.mp3 */; };
+		37A3B35629CD4156009EB766 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 37A3B35429CD4156009EB766 /* success.m4a */; };
 		37FE9D0229C5AAE800591FE7 /* RestartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE9D0129C5AAE800591FE7 /* RestartApp.swift */; };
 		37FE9D0429C5AAE800591FE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE9D0329C5AAE800591FE7 /* ContentView.swift */; };
 		37FE9D0629C5AAEA00591FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FE9D0529C5AAEA00591FE7 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 		3759F45C29C5B84500C6403B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		3759F45E29C5B85300C6403B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		37A3B34E29CA8957009EB766 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		37A3B35129CD38E0009EB766 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		37A3B35329CD4156009EB766 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = chimeup.mp3; path = "../../../+Resource/Restart-App/Completed/Restart-App/Resources/Sounds/chimeup.mp3"; sourceTree = "<group>"; };
+		37A3B35429CD4156009EB766 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = success.m4a; path = "../../../+Resource/Restart-App/Completed/Restart-App/Resources/Sounds/success.m4a"; sourceTree = "<group>"; };
 		37FE9CFE29C5AAE800591FE7 /* Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FE9D0129C5AAE800591FE7 /* RestartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartApp.swift; sourceTree = "<group>"; };
 		37FE9D0329C5AAE800591FE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +95,8 @@
 		37FE9D1029C5AB0800591FE7 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				37A3B35329CD4156009EB766 /* chimeup.mp3 */,
+				37A3B35429CD4156009EB766 /* success.m4a */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -96,6 +104,7 @@
 		37FE9D1129C5AB0E00591FE7 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				37A3B35129CD38E0009EB766 /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -166,6 +175,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A3B35629CD4156009EB766 /* success.m4a in Resources */,
+				37A3B35529CD4156009EB766 /* chimeup.mp3 in Resources */,
 				37FE9D0929C5AAEA00591FE7 /* Preview Assets.xcassets in Resources */,
 				37FE9D0629C5AAEA00591FE7 /* Assets.xcassets in Resources */,
 			);
@@ -183,6 +194,7 @@
 				3759F45F29C5B85300C6403B /* HomeView.swift in Sources */,
 				37FE9D0429C5AAE800591FE7 /* ContentView.swift in Sources */,
 				37FE9D0229C5AAE800591FE7 /* RestartApp.swift in Sources */,
+				37A3B35229CD38E0009EB766 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
